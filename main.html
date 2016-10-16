@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/three.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/Octree.js"></script>
+</head>
+<body>
+<div id="Stats-output"></div>
+<!--<script id="NodeVertexShader" type="x-shader/x-vertex">
+attribute float customSize;
+uniform float vpSizeY;
+
+
+void main()
+{
+    vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+    gl_Position = projectionMatrix * mvPosition;
+
+    //http://stackoverflow.com/questions/25780145/gl-pointsize-corresponding-to-world-space-size
+    gl_PointSize = vpSizeY * projectionMatrix[1][1] * customSize / gl_Position.w;
+}
+
+</script>
+
+<script id="NodeFragmentShader" type="x-shader/x-fragment">
+void main()
+{
+    gl_FragColor = vec4( 0.5, 0.7, 0.4, 0.5 );
+}
+</script>-->
+
+<script src="draw.js"></script>
+
+</body>
+</html>
